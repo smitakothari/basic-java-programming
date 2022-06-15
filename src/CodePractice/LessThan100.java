@@ -17,7 +17,7 @@ public class LessThan100 {
         System.out.print("Enter second number: ");
         int secondNumber = scanner.nextInt();
         int sum = firstNumber + secondNumber;
-        if(sum <= 100){
+        if(sum < 100){
             System.out.print(true);
         }
         else
